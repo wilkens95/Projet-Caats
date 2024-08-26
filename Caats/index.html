@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--J'inclus une commande qui me permet d'encoder tous les caractères spéciaux UTF-8-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Je nomme mon site web-->
+    <title>L'alimentation de votre chat, sans s'en précoccuper - Caats.co</title>
+    <!--Je lie mon HTML et mon CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Je lie mon site à fontawesome si j'utilise des icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Je récupère les police qui m'intéresse-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Je crée un bloc qui englobe tout mon contenu de page web-->
+    <div class="main">
+        <!--Je créé mon menu de navigation-->
+        <nav>
+            <h2>MY PET</h2>
+            <img src="img/cat.png" alt="">
+            <p>Vous souhaitez</p>
+            <!--Je crée les liens de mon menu de navigation-->
+            <!-- Le menu-->
+            <ul>
+                <!-- Les liens-->
+                <li><a href="">Changer la photo de Profil</a></li>
+                <li><a href="">Modifier sa date d'expedition</a> </li>
+                <li><a href="">Modifier son menu</a></li>
+                <li><a href="">Modifier son profil</a> </li>
+                <li><a href="">Suspendre les livraisons</a> </li>
+                <li><a href="">Contacter le service client</a></li>
+            </ul>
+        </nav>
+        <!--Fin du menu de navigation-->
+        <!--Je crée ma section principale de page-->
+        <section>
+            <!--Je crée un article de ma page - article 1-->
+            <article>
+                <!--Titre de mon article-->
+                <h2>Prochaine expédition</h2>
+                <!--Bloc englobant les 2 éléments que je veux aligner-->
+                <div class="content">
+                    <!--Bloc enfant 1-->
+                    <div>
+                        <img src="img/box.png" alt="">
+                    </div>
+                    <!--Bloc enfant 2-->
+                    <div class="content-text">
+                        <h3>2 mois d'alimentation pour {FNAME}</h3>
+                        <p>- 7.2kg de croquettes saines et naturelle</p>
+                        <p>- 40 pochons d'effilochés</p>
+                        <h3>Prix total pour 2 mois : 82,40€ (1,37€ : jour)</h3>
+                        <p class="small-text">Date de facturation et préparation : 15/11/2021</p>
+                        <p class="small-text">Livraison estimée : 15/11/2021 ++ 19/11/2021</p>
+                        <a href="">Modifier la date d'expedition</a>
+                    </div>     
+                </div>
+            </article>
+            <!--Fin article 1-->
+            <!--Je crée un article de ma page- article 2-->
+            <article>
+                <!--Titre de mon article-->
+                <h2>Le menu de {FNAME}</h2>
+                <!--Bloc englobant les 2 éléments que je veux aligner-->
+                <div class="content">
+                    <!--Bloc enfant 1-->
+                    <div class="content-image">
+                        <img src="img/box.png" alt="">
+                    </div>
+                    <!--Bloc enfant 2-->
+                    <div class="content-text">
+                        <p>Croquettes (poulets et petits légumes)...<span>35g/jour</span></p>
+                        <p>Effilochés (plusieurs saveurs)...<span>1 pochon/jour</span></p>                        
+                        <p>Prix total par jour...<span>1.37/jour</span></p>   
+                        <h3>Fréquence de livraison tous les 2 mois</h3>                     
+                        <a href="">Modifier le menu</a>
+                    </div>     
+                </div>
+            </article>
+            <!--Fin article 2-->
+            
+        </section>
+        <!--Fin section principale de page-->
+    </div>
+</body>
+</html>
