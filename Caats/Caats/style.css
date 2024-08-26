@@ -1,0 +1,88 @@
+/*Je commence du plus gros au plus petit en CSS*/
+/*Le body sera toujours le premier élément sur lequel nous travaillons*/
+/*Si vous voulez des marges, une police en particulier, etc.*/
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1100px;
+    margin: auto;
+}
+/*Ma classe main comporte mes deux blocs enfants que je veux aligner : nav et section*/
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*MENU DE NAVIGATION */
+nav {
+    text-align: center;
+    border: 1px black solid;
+    height: 700px;
+    width: 28%;
+    min-width: 230px;
+}
+/*Titre h2 du menu de navigation */
+nav h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+/*paragraphe du menu de navigation */
+nav p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/*image du menu de navigation */
+nav img {
+    width: 170px;
+    border-radius: 50%;
+}
+/*Liste du menu de navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 1rem 1.5rem 1rem ;  
+} 
+/*éléments de la liste du menu de navigation */
+nav ul li {
+    margin: 1rem 0;
+    background-color: #ff6363;
+    padding: 0.75rem;
+    border-radius: 35px;
+    min-width: 180px;
+}
+/*lien du menu de navigation, équivalent à "nav a"*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*SECTION*/
+
+section {
+    margin-left: 2rem;
+    width: 65%;
+}
+
+/*ARTICLE*/
+.content {
+    display: flex;
+}
+.content h3 {
+    margin-top: 0;
+}
+.content-text {
+    margin-left: 2rem;
+}
+article img {
+    width: 250px;
+}
+h2 {
+    font-size: 1.7rem;
+}
+.small-text {
+    font-size: 0.85rem;
+}
+a {
+    color: #ff6363;
+}
+p {
+    line-height: 0.3rem;
+}
